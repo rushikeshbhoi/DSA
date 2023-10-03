@@ -4,11 +4,11 @@
 
 int Maximum(int iNo1, int iNo2, int iNo3)
 {
-    if((iNo1 > iNo2) && (iNo1 > iNo3))
+    if((iNo1 >= iNo2) && (iNo1 >= iNo3))
     {
         return iNo1;
     }
-    else if((iNo2 > iNo1) && (iNo2 > iNo3))
+    else if((iNo2 >= iNo1) && (iNo2 >= iNo3))
     {
         return iNo2;
     }
